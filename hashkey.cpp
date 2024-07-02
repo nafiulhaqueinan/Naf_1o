@@ -5,6 +5,8 @@
 #include "defination.h"
 #include <cassert>
 
+
+
 uint64_t generatePositionKey(const S_BOARD &pos) {
     uint64_t finalKey = 0;
 

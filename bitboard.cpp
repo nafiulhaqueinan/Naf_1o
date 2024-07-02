@@ -18,6 +18,9 @@ const int BitTable[64] = {
     58, 20, 37, 17, 36, 8
 };
 
+
+
+
 int PopBit(uint64_t &bb) {
     uint64_t b = bb ^ (bb - 1);
     unsigned int fold = static_cast<unsigned int>((b & 0xffffffff) ^ (b >> 32));

@@ -67,6 +67,8 @@ void InitSq120ToSq64() {
     }
 }
 
+
+
 void AllInit() {
     InitSq120ToSq64();
     init_bit_mask();

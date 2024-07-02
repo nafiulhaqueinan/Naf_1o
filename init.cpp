@@ -47,6 +47,8 @@ void init_bit_mask() {
     }
 }
 
+
+
 void InitSq120ToSq64() {
     for (int idx = 0; idx < Board_sq_Num; idx++) {
         Sq120ToSq64[idx] = 65;

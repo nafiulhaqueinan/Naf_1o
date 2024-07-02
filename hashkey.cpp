@@ -27,6 +27,8 @@ uint64_t generatePositionKey(const S_BOARD &pos) {
         finalKey ^= piecekeys[EMPTY][pos.enPas];
     }
 
+
+    
     assert(pos.castleperm >= 0 && pos.castleperm <= 15);
     finalKey ^= Castlekeys[pos.castleperm];
 

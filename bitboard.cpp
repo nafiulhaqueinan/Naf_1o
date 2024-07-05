@@ -7,10 +7,6 @@
 #include "defination.h"
 
 
-
-
-
-
 using namespace std;
 
 

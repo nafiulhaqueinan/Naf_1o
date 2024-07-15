@@ -8,6 +8,8 @@
 #include "defination.h"
 using namespace std;
 
+
+
 int Parse_Fen(const string &fen, S_BOARD &pos) {
     assert(!fen.empty());
 

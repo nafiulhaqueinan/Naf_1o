@@ -4,5 +4,8 @@
 
 char PceChar[] = ".PNBRQKpnbrqk";
 cahr SideChar[] = "wb-";
+
+
+
 char RankChar[] = "12345678";
 char FileChar[] = "abcdefgh";
